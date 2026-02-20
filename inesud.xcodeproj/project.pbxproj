@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		7944634C2F47F25F0069521C /* DateGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7944634C2F47F25F0069521C /* inesud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inesud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7944634E2F47F25F0069521C /* DateGame */ = {
+		7944634E2F47F25F0069521C /* inesud */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DateGame;
+			path = inesud;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		794463432F47F25F0069521C = {
 			isa = PBXGroup;
 			children = (
-				7944634E2F47F25F0069521C /* DateGame */,
+				7944634E2F47F25F0069521C /* inesud */,
 				7944634D2F47F25F0069521C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		7944634D2F47F25F0069521C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7944634C2F47F25F0069521C /* DateGame.app */,
+				7944634C2F47F25F0069521C /* inesud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7944634B2F47F25F0069521C /* DateGame */ = {
+		7944634B2F47F25F0069521C /* inesud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 794463572F47F2600069521C /* Build configuration list for PBXNativeTarget "DateGame" */;
+			buildConfigurationList = 794463572F47F2600069521C /* Build configuration list for PBXNativeTarget "inesud" */;
 			buildPhases = (
 				794463482F47F25F0069521C /* Sources */,
 				794463492F47F25F0069521C /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7944634E2F47F25F0069521C /* DateGame */,
+				7944634E2F47F25F0069521C /* inesud */,
 			);
-			name = DateGame;
+			name = inesud;
 			packageProductDependencies = (
 			);
-			productName = DateGame;
-			productReference = 7944634C2F47F25F0069521C /* DateGame.app */;
+			productName = inesud;
+			productReference = 7944634C2F47F25F0069521C /* inesud.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 794463472F47F25F0069521C /* Build configuration list for PBXProject "DateGame" */;
+			buildConfigurationList = 794463472F47F25F0069521C /* Build configuration list for PBXProject "inesud" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7944634B2F47F25F0069521C /* DateGame */,
+				7944634B2F47F25F0069521C /* inesud */,
 			);
 		};
 /* End PBXProject section */
@@ -251,8 +251,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLD24T6M5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = inesud;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -263,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Gui.DateGame;
+				PRODUCT_BUNDLE_IDENTIFIER = Gui.inesud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -282,8 +284,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NLD24T6M5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = inesud;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +298,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Gui.DateGame;
+				PRODUCT_BUNDLE_IDENTIFIER = Gui.inesud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -309,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		794463472F47F25F0069521C /* Build configuration list for PBXProject "DateGame" */ = {
+		794463472F47F25F0069521C /* Build configuration list for PBXProject "inesud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				794463552F47F2600069521C /* Debug */,
@@ -318,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		794463572F47F2600069521C /* Build configuration list for PBXNativeTarget "DateGame" */ = {
+		794463572F47F2600069521C /* Build configuration list for PBXNativeTarget "inesud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				794463582F47F2600069521C /* Debug */,
